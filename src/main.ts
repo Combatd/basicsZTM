@@ -14,7 +14,9 @@ AppModule will give definitions of Angular features to compile.
 */
 
 import { platformBrowserDynamic } from "@angular/platform-browser-dynamic";
-import { AppModule } from "./app/app.module.js";
 
-platformBrowserDynamic().bootstrapModule(AppModule)
+import { AppModule } from "./app/app.module.js"; // root module
+
+platformBrowserDynamic()
+  .bootstrapModule(AppModule)
   .catch(err => console.error(err));
