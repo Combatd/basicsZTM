@@ -1,0 +1,9 @@
+img {
+  width: 200px;
+  height: 200px;
+}
+
+/* This psuedo-selector will tell Angular to apply these styles to the component tag wrapped around the templates */
+:host {
+  font-size: 24px;
+}
