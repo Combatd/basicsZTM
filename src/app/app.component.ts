@@ -23,7 +23,7 @@ import { Component } from "@angular/core";
   // styles: ['']
 })
 export class AppComponent {
-  name = 'Luis';
+  name = 'gawr gura';
   imgURL = 'https://th.bing.com/th/id/R.ab6179ffc7d3df06f5ae73129339b2fb?rik=Db8oS4YnzPSiKQ&pid=ImgRaw&r=0'
 
   getName() {
