@@ -26,6 +26,8 @@ export class AppComponent {
   name = 'gawr gura';
   imgURL = 'https://th.bing.com/th/id/R.ab6179ffc7d3df06f5ae73129339b2fb?rik=Db8oS4YnzPSiKQ&pid=ImgRaw&r=0'
   currentDate = new Date();
+  cost = 2000;
+  temperature = 25.3;
 
   getName() {
     return this.name;
