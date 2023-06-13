@@ -2,6 +2,14 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
 
+This is simply for testing out features in Angular, and not a real project.
+
+## Learning Goals
+* Build enterprise level Angular applications
+* Master Angular Design Patterns
+* Deal with memory leaks to improve performance
+* Build reactive, performant, large scale applications
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
