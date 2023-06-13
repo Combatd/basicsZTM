@@ -32,9 +32,14 @@ export class AppComponent {
     toppings: ['pepperoni', 'bacon'],
     size: 'large'
   };
+  blueClass = false;
 
   getName() {
     return this.name;
+  }
+
+  toggleBlueClass() {
+    this.blueClass = !this.blueClass;
   }
 
   changeImage(e: KeyboardEvent) {
